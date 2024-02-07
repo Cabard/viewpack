@@ -1,6 +1,7 @@
 {
     "name": "cabard/viewpack",
     "description": "ViewPack view templates for Laravel.",
+    "require": {},
     "autoload": {
         "psr-4": {
             "Cabard\\Viewpack\\": "src/"
@@ -15,7 +16,6 @@
         }
     ],
     "homepage": "https://github.com/Cabard/viewpack",
-    "require": {},
     "extra": {
         "laravel": {
             "providers": [
