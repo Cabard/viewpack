@@ -1,0 +1,26 @@
+{
+    "name": "cabard/viewpack",
+    "description": "ViewPack view templates for Laravel.",
+    "autoload": {
+        "psr-4": {
+            "Cabard\\Viewpack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cabard",
+            "email": "kadickov.andrei@yandex.ru",
+            "homepage": "https://github.com/Cabard",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/Cabard/viewpack",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cabard\\Viewpack\\ViewpackServiceProvider"
+            ]
+        }
+    }
+}
